@@ -10,9 +10,8 @@ console.log(multi(7,53812212));
 // Your code goes here:
 const renderPerson = (name, date, eyeColor, age, sex) => { 
 
-    
-     
     return `${name} is a ${age} years old ${sex} born in ${date} with ${eyeColor} eyes`; 
+    //return name + "is a" + age + "years old" + sex + "born in" + date +  "with" + eyeColor + "eyes";
 
 } 
 
