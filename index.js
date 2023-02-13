@@ -48,3 +48,21 @@ let str = "John";
 console.log(rapid(str));
 
 console.log(sortNames(names));
+
+//  js5  ******************************************************************
+
+let age = prompt('What is your age?')
+
+// Your code below:
+
+var result = parseInt(age) + 10;
+
+console.log(result);
+//console.log(parseInt(age) + 10)
+
+
+const num1 = 5;
+
+const num2 = 6;
+
+console.log(num1 * num2)
