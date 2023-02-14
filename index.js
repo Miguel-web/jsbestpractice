@@ -66,3 +66,16 @@ const num1 = 5;
 const num2 = 6;
 
 console.log(num1 * num2)
+
+//  js6  ******************************************************************
+
+function isOdd(myNumber)
+{
+	return !(myNumber % 2 == 0);
+}
+
+// Your code below:
+console.log(isOdd(45345))
+
+//  js7  ******************************************************************
+
