@@ -87,3 +87,12 @@ const generateRandom = () => {
 console.log(generateRandom())
 
 //  js8  ******************************************************************
+
+//your code here
+//const selectTheTitle = document.querySelector('#theTitle');
+//alert(selectTheTitle.id)
+
+const selectTheTitle = document.getElementById("theTitle")
+alert(selectTheTitle.id)
+
+//  js9  ******************************************************************
