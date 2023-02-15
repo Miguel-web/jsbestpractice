@@ -96,3 +96,12 @@ const selectTheTitle = document.getElementById("theTitle")
 alert(selectTheTitle.id)
 
 //  js9  ******************************************************************
+
+let mydiv = document.querySelector("#myDiv");
+
+mydiv.style.background = "yellow"
+
+//let mydiv = document.getElementById('myDiv');
+
+//mydiv.style.background = "yellow"
+
