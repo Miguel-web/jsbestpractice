@@ -87,3 +87,26 @@ const generateRandom = () => {
 console.log(generateRandom())
 
 //  js8  ******************************************************************
+
+//Declare your function here
+const input = document.querySelector('input');
+
+input.addEventListener("click", () => {
+    console.log(input.id)
+});
+
+/*
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+	</head>
+	<body>
+		<input id="hello" type="button" value="Press to show 'Hello world'" />
+		<script src="index.js"></script>
+	</body>
+</html>
+
+*/
