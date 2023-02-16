@@ -88,6 +88,7 @@ console.log(generateRandom())
 
 //  js8  ******************************************************************
 
+<<<<<<< HEAD
 //Declare your function here
 const input = document.querySelector('input');
 
@@ -110,3 +111,22 @@ input.addEventListener("click", () => {
 </html>
 
 */
+=======
+//your code here
+//const selectTheTitle = document.querySelector('#theTitle');
+//alert(selectTheTitle.id)
+
+const selectTheTitle = document.getElementById("theTitle")
+alert(selectTheTitle.id)
+
+//  js9  ******************************************************************
+
+let mydiv = document.querySelector("#myDiv");
+
+mydiv.style.background = "yellow"
+
+//let mydiv = document.getElementById('myDiv');
+
+//mydiv.style.background = "yellow"
+
+>>>>>>> d5691f69b81d99fb1c0a713fdda569df8f13f859
