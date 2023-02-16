@@ -131,3 +131,9 @@ mydiv.style.background = "yellow"
 
 //mydiv.style.background = "yellow"
 
+//  js11  ******************************************************************
+
+let aux = document.querySelector("#wulu");
+//your code here
+aux.style.float = 'right'
+
