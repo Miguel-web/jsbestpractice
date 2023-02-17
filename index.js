@@ -206,3 +206,13 @@ function establecerClima() {
 
 //  js16  ******************************************************************
 
+if (elección === 'soleado') {
+    if (temperatura < 86) {
+      parrafo.textContent = 'Está a ' + temperatura + ' grados afuera — agradable y soleado. Vamos a la playa, o al parque, y comer helado.';
+    } else if (temperatura >= 86) {
+      parrafo.textContent = 'Está a ' + temperatura + ' grados afuera — ¡QUÉ CALOR! Si deseas salir, asegúrate de aplicarte bloqueador solar.';
+    }
+  }
+  
+  //  js17  ******************************************************************
+
