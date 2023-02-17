@@ -149,3 +149,18 @@ elemH1.innerHTML = "Hello World";
 document.body.appendChild(elemH1);
 
 //  js13  ******************************************************************
+
+let button = document.querySelector("#superDuperButton");
+button.addEventListener("click", function() {
+	//your code here
+	const elemDiv = document.createElement("div");
+
+elemDiv.style.background = "yellow";
+
+elemDiv.innerHTML = "Hello World";
+
+document.body.appendChild(elemDiv);
+});
+
+//  js14  ******************************************************************
+
