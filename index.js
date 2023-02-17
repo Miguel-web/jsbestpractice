@@ -137,3 +137,14 @@ let aux = document.querySelector("#wulu");
 //your code here
 aux.style.float = 'right'
 
+//  js12  ******************************************************************
+
+// Your code here
+const elemH1 = document.createElement("p");
+
+elemH1.style.background = "yellow";
+
+elemH1.innerHTML = "Hello World";
+
+document.body.appendChild(elemH1);
+
