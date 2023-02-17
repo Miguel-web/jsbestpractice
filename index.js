@@ -138,7 +138,6 @@ let aux = document.querySelector("#wulu");
 aux.style.float = 'right'
 
 //  js12  ******************************************************************
-<<<<<<< HEAD
 
 // Your code here
 const elemH1 = document.createElement("p");
@@ -149,5 +148,3 @@ elemH1.innerHTML = "Hello World";
 
 document.body.appendChild(elemH1);
 
-=======
->>>>>>> origin
