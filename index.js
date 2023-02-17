@@ -183,6 +183,20 @@ function updateBtn() {
 
 //  js15  ******************************************************************
 
+// HTML del condicional   *****************
+/*
+<label for="clima">Seleccione el tipo de clima de hoy: </label>
+<select id="clima">
+  <option value="">--Haga una elección--</option>
+  <option value="soleado">Soleado</option>
+  <option value="lluvioso">Lluvioso</option>
+  <option value="nevando">Nevando</option>
+  <option value="nublado">Nublado</option>
+</select>
+
+<p></p>
+*/
+
 let seleccionar = document.querySelector('select');
 let parrafo = document.querySelector('p');
 
@@ -207,7 +221,7 @@ function establecerClima() {
 //  js16  ******************************************************************
 
 if (elección === 'soleado') {
-    if (temperatura < 86) {
+    if (temperatura < 86) {S
       parrafo.textContent = 'Está a ' + temperatura + ' grados afuera — agradable y soleado. Vamos a la playa, o al parque, y comer helado.';
     } else if (temperatura >= 86) {
       parrafo.textContent = 'Está a ' + temperatura + ' grados afuera — ¡QUÉ CALOR! Si deseas salir, asegúrate de aplicarte bloqueador solar.';
