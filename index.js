@@ -230,3 +230,22 @@ if (elección === 'soleado') {
   
   //  js17  ******************************************************************
 
+  /*<!DOCTYPE html>
+  <html>
+  <body>
+  
+  <h2>JavaScript For Loop</h2>
+  
+  <p id="demo"></p>
+  
+  <script>
+  const cars = ["BMW", "Volvo", "Saab", "Ford"];
+  let i, len, text;
+  for (i = 0, len = cars.length, text = ""; i < len; i++) {
+    text += "the car is" + "" + cars[i] + "<br>";
+  }
+  document.getElementById("demo").innerHTML = text;
+  </script>
+  
+  </body>
+  </html>*/
