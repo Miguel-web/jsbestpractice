@@ -34,3 +34,18 @@ ReactDOM.render(content, document.querySelector("#myDiv"));
 
 //  React js 2  ******************************************************************
 
+import React from "react";
+import ReactDOM from "react-dom";
+
+const animals = ["Horse", "Turtle", "Elephant", "Monkey"];
+
+/**
+ * change the content inside the map function
+ **/
+const animalsInHTML = animals.map((singleAnimal) => {
+	return (<li key={i}>{singleAnimal}</li>), (<li key={i}>{singleAnimal}</li>), (<li key={i}>{singleAnimal}</li>), (<li key={i}>{singleAnimal}</li>);
+});
+
+ReactDOM.render(<ul>{animalsInHTML}</ul>, document.querySelector("#myDiv"));
+
+//  React js 3  ******************************************************************
