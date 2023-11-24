@@ -1,6 +1,6 @@
 
 /////      COMANDO PARA VER EN CONSOLA SI LA FUNCION SE EJECUTA BIEN      /////
-                        // $ node JSChallenges.js
+// $ node JSChallenges.js
 
 // Programming Test - 4Geeks Academy
 
@@ -15,14 +15,15 @@
 
 
 // 💻 Your solution here (no googling, we don’t care about syntax errors, just logic):
-    let sum = 0;
-for (i = 0; i < 1000; i++) {
-    if (Number.isInteger(i/3) || Number.isInteger(i/5)) {
-        sum = sum + i;
-        
-    }
-}
-console.log(sum)
+
+// let sum = 0;
+// for (i = 0; i < 1000; i++) {
+//     if (Number.isInteger(i / 3) || Number.isInteger(i / 5)) {
+//         sum = sum + i;
+
+//     }
+// }
+// console.log(sum)
 
 
 
@@ -52,7 +53,38 @@ console.log(sum)
 
 // 💻 Your solution here (no googling, we don’t care about syntax errors, just logic):
 
+// sin creale function
+
+// for (let i = 1; i < 101; i++) {
+    
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log('TicToc');
+//     } else if (i % 3 === 0) {
+//         console.log('Tic');
+//     } else if (i % 5 === 0) {
+//         console.log('Toc');
+//     } else {
+//         console.log(i)
+//     }
+// }
+function fizzBuzz () {
+for (let i = 1; i < 101; i++) {
+    
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('TicToc');
+    } else if (i % 3 === 0) {
+        console.log('Tic');
+    } else if (i % 5 === 0) {
+        console.log('Toc');
+    } else {
+        console.log(i)
+    }
+}
+}
+fizzBuzz()
  
+
+
 
 
 
