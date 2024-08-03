@@ -290,3 +290,6 @@ const output = (
 //              what     where
 ReactDOM.render(output, document.querySelector("#myDiv"));
 
+//  js20  ******************************************************************
+
+const GetFileExtension = (str) => 
