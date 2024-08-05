@@ -18,13 +18,13 @@
 
 
 
-let sum = 0;
-for (i = 0; i < 1000; i++) {
-    if (i % 3 === 0 || i % 5 === 0) {
-        sum = sum + i;
-    }
-}
-console.log(sum)
+// let sum = 0;
+// for (i = 0; i < 1000; i++) {
+//     if (i % 3 === 0 || i % 5 === 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum)
 
 // let sum = 0;
 // for (i = 0; i < 1000; i++) {
@@ -65,18 +65,18 @@ console.log(sum)
 
 // sin crearle function
 
-// for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     
-//     if (i % 3 === 0 && i % 5 === 0) {
-//         console.log('TicToc');
-//     } else if (i % 3 === 0) {
-//         console.log('Tic');
-//     } else if (i % 5 === 0) {
-//         console.log('Toc');
-//     } else {
-//         console.log(i)
-//     }
-// }
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('TicToc');
+    } else if (i % 3 === 0) {
+        console.log('Tic');
+    } else if (i % 5 === 0) {
+        console.log('Toc');
+    } else {
+        console.log(i)
+    }
+}
 // function fizzBuzz () {
 // for (let i = 1; i < 101; i++) {
     
